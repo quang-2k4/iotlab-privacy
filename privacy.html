@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - FanpageBot | IoT LAB Club - TBD</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #f0f2f5;
+            color: #1a1a2e;
+            line-height: 1.7;
+        }
+        .lang-tabs {
+            background: #1a1a2e;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .lang-tabs button {
+            background: transparent;
+            border: none;
+            color: #888;
+            padding: 14px 36px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            letter-spacing: 0.5px;
+        }
+        .lang-tabs button:hover { color: #fff; background: rgba(255,255,255,0.08); }
+        .lang-tabs button.active {
+            color: #fff;
+            border-bottom: 3px solid #e94560;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 6px;
+            color: #1a1a2e;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 32px;
+            border-bottom: 2px solid #e94560;
+            padding-bottom: 16px;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 28px 0 12px;
+            color: #16213e;
+        }
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 8px;
+            color: #0f3460;
+        }
+        p, li { color: #333; }
+        ul { padding-left: 22px; margin: 8px 0 16px; }
+        li { margin-bottom: 6px; }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            padding: 32px 36px;
+            margin-top: 16px;
+        }
+        .badge {
+            display: inline-block;
+            background: #e94560;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 20px;
+            margin-left: 6px;
+            vertical-align: middle;
+        }
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+            padding-top: 24px;
+        }
+        .meta-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 6px 16px;
+            margin: 12px 0 20px;
+            font-size: 14px;
+        }
+        .meta-grid dt { color: #e94560; font-weight: 600; white-space: nowrap; }
+        .meta-grid dd { color: #555; }
+        @media (max-width: 600px) {
+            .container { padding: 20px 16px 60px; }
+            .card { padding: 20px; }
+            h1 { font-size: 22px; }
+            .lang-tabs button { padding: 12px 20px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="lang-tabs">
+    <button class="active" onclick="switchLang('vi')">🇻🇳 Tiếng Việt</button>
+    <button onclick="switchLang('en')">🇬🇧 English</button>
+</div>
+
+<div class="container">
+
+<!-- ==================== TIẾNG VIỆT ==================== -->
+<div id="lang-vi" class="lang-section active">
+    <h1>Chính Sách Bảo Mật</h1>
+    <div class="subtitle">FanpageBot &mdash; CLB IoT LAB - Trường Đại học Bách khoa (TBD)</div>
+
+    <div class="card">
+        <dl class="meta-grid">
+            <dt>Cập nhật lần cuối:</dt>
+            <dd>24 tháng 06, 2026</dd>
+            <dt>Ứng dụng:</dt>
+            <dd>FanpageBot</dd>
+            <dt>Đơn vị vận hành:</dt>
+            <dd>Câu lạc bộ IoT LAB - Trường Đại học Bách khoa (TBD)</dd>
+        </dl>
+
+        <h2>1. Giới thiệu</h2>
+        <p>Chúng tôi, CLB IoT LAB - TBD, vận hành ứng dụng <strong>FanpageBot</strong> — một công cụ tự động hỗ trợ quản lý Fanpage Facebook. Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu của bạn khi sử dụng ứng dụng.</p>
+        <p>Bằng cách sử dụng FanpageBot, bạn đồng ý với các điều khoản được mô tả trong chính sách này.</p>
+
+        <h2>2. Thông tin chúng tôi thu thập</h2>
+        <h3>2.1. Dữ liệu từ Facebook</h3>
+        <ul>
+            <li><strong>Thông tin cơ bản:</strong> ID người dùng, tên, email công khai, ảnh đại diện (khi bạn đăng nhập bằng Facebook).</li>
+            <li><strong>Thông tin Fanpage:</strong> ID trang, tên trang, danh sách bài viết, bình luận, tin nhắn từ khách hàng (khi bạn cấp quyền quản lý Fanpage).</li>
+            <li><strong>Token truy cập:</strong> Access token để tương tác với Facebook Graph API — <em>không bao giờ được chia sẻ với bên thứ ba</em>.</li>
+        </ul>
+
+        <h3>2.2. Dữ liệu kỹ thuật</h3>
+        <ul>
+            <li>Địa chỉ IP, thông tin trình duyệt, loại thiết bị, nhật ký truy cập (logs).</li>
+            <li>Cookies và dữ liệu phiên làm việc để duy trì đăng nhập.</li>
+        </ul>
+
+        <h2>3. Mục đích sử dụng dữ liệu</h2>
+        <p>Dữ liệu thu thập được sử dụng cho các mục đích sau:</p>
+        <ul>
+            <li>Vận hành và cung cấp các tính năng tự động của FanpageBot.</li>
+            <li>Xử lý tin nhắn tự động, đăng bài, và quản lý tương tác trên Fanpage.</li>
+            <li>Cải thiện hiệu suất, bảo mật và trải nghiệm người dùng.</li>
+            <li>Phân tích thống kê nội bộ (không nhận dạng cá nhân).</li>
+        </ul>
+
+        <h2>4. Chia sẻ dữ liệu</h2>
+        <p>Chúng tôi <strong>không</strong> bán, cho thuê hoặc chia sẻ dữ liệu cá nhân của bạn cho bên thứ ba, ngoại trừ:</p>
+        <ul>
+            <li>Khi được pháp luật yêu cầu (theo quyết định của tòa án hoặc cơ quan nhà nước có thẩm quyền).</li>
+            <li>Với các đối tác kỹ thuật cần thiết cho việc vận hành (hosting, cơ sở dữ liệu) — các đối tác này bị ràng buộc bởi thỏa thuận bảo mật.</li>
+            <li>Với sự đồng ý rõ ràng của bạn.</li>
+        </ul>
+
+        <h2>5. Lưu trữ và bảo mật</h2>
+        <ul>
+            <li>Dữ liệu được lưu trữ trên máy chủ của CLB IoT LAB tại Việt Nam.</li>
+            <li>Chúng tôi áp dụng các biện pháp bảo mật hợp lý: mã hóa kết nối (HTTPS), tường lửa, kiểm soát truy cập.</li>
+            <li>Token Facebook được mã hóa và lưu trữ an toàn, chỉ sử dụng khi cần thiết.</li>
+            <li>Dữ liệu được giữ trong thời gian cần thiết để cung cấp dịch vụ hoặc theo yêu cầu pháp lý.</li>
+        </ul>
+
+        <h2>6. Quyền của bạn</h2>
+        <p>Bạn có quyền:</p>
+        <ul>
+            <li>Yêu cầu truy cập, chỉnh sửa hoặc xóa dữ liệu cá nhân của mình.</li>
+            <li>Thu hồi quyền truy cập Facebook bất kỳ lúc nào qua <a href="https://www.facebook.com/settings?tab=applications" target="_blank">Cài đặt ứng dụng Facebook</a>.</li>
+            <li>Yêu cầu ngừng xử lý dữ liệu.</li>
+        </ul>
+        <p>Để thực hiện các quyền này, vui lòng liên hệ với chúng tôi qua thông tin ở mục 8.</p>
+
+        <h2>7. Thay đổi chính sách</h2>
+        <p>Chúng tôi có thể cập nhật chính sách bảo mật này định kỳ. Mọi thay đổi sẽ được đăng tại trang này kèm ngày cập nhật. Bạn nên kiểm tra lại định kỳ để nắm được các thay đổi.</p>
+
+        <h2>8. Liên hệ</h2>
+        <p>Nếu bạn có bất kỳ câu hỏi hoặc yêu cầu nào liên quan đến chính sách bảo mật này, vui lòng liên hệ:</p>
+        <ul>
+            <li><strong>Email:</strong> iotlab@tbd.edu.vn</li>
+            <li><strong>CLB IoT LAB - TBD</strong></li>
+            <li><strong>Địa chỉ:</strong> Trường Đại học Bách khoa (TBD), Việt Nam</li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 CLB IoT LAB - TBD. FanpageBot. Bảo lưu mọi quyền.
+        </div>
+    </div>
+</div>
+
+<!-- ==================== ENGLISH ==================== -->
+<div id="lang-en" class="lang-section">
+    <h1>Privacy Policy</h1>
+    <div class="subtitle">FanpageBot &mdash; IoT LAB Club - Polytechnic University (TBD)</div>
+
+    <div class="card">
+        <dl class="meta-grid">
+            <dt>Last Updated:</dt>
+            <dd>June 24, 2026</dd>
+            <dt>Application:</dt>
+            <dd>FanpageBot</dd>
+            <dt>Operating Entity:</dt>
+            <dd>IoT LAB Club - Polytechnic University (TBD)</dd>
+        </dl>
+
+        <h2>1. Introduction</h2>
+        <p>We, the IoT LAB Club - TBD, operate the <strong>FanpageBot</strong> application — an automation tool for managing Facebook Fanpages. This Privacy Policy explains how we collect, use, store, and protect your data when you use the application.</p>
+        <p>By using FanpageBot, you agree to the terms described in this policy.</p>
+
+        <h2>2. Information We Collect</h2>
+        <h3>2.1. Data from Facebook</h3>
+        <ul>
+            <li><strong>Basic Information:</strong> User ID, name, public email, profile picture (when you log in with Facebook).</li>
+            <li><strong>Fanpage Information:</strong> Page ID, page name, list of posts, comments, messages from customers (when you grant Fanpage management permissions).</li>
+            <li><strong>Access Tokens:</strong> Tokens to interact with the Facebook Graph API — <em>never shared with third parties</em>.</li>
+        </ul>
+
+        <h3>2.2. Technical Data</h3>
+        <ul>
+            <li>IP address, browser information, device type, access logs.</li>
+            <li>Cookies and session data to maintain login state.</li>
+        </ul>
+
+        <h2>3. How We Use Data</h2>
+        <p>Collected data is used for the following purposes:</p>
+        <ul>
+            <li>Operating and delivering the automated features of FanpageBot.</li>
+            <li>Processing auto-replies, posts, and Fanpage interactions.</li>
+            <li>Improving performance, security, and user experience.</li>
+            <li>Internal statistical analysis (non-personally identifiable).</li>
+        </ul>
+
+        <h2>4. Data Sharing</h2>
+        <p>We <strong>do not</strong> sell, rent, or share your personal data with third parties, except:</p>
+        <ul>
+            <li>When required by law (court order or governmental authority).</li>
+            <li>With technical partners necessary for operation (hosting, database) — these partners are bound by confidentiality agreements.</li>
+            <li>With your explicit consent.</li>
+        </ul>
+
+        <h2>5. Storage &amp; Security</h2>
+        <ul>
+            <li>Data is stored on IoT LAB Club servers located in Vietnam.</li>
+            <li>We implement reasonable security measures: encrypted connections (HTTPS), firewalls, access controls.</li>
+            <li>Facebook tokens are encrypted and stored securely, used only when needed.</li>
+            <li>Data is retained for as long as necessary to provide the service or as required by law.</li>
+        </ul>
+
+        <h2>6. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Request access, correction, or deletion of your personal data.</li>
+            <li>Revoke Facebook access at any time via <a href="https://www.facebook.com/settings?tab=applications" target="_blank">Facebook App Settings</a>.</li>
+            <li>Request that we stop processing your data.</li>
+        </ul>
+        <p>To exercise these rights, please contact us using the information in Section 8.</p>
+
+        <h2>7. Policy Changes</h2>
+        <p>We may update this Privacy Policy periodically. Any changes will be posted on this page with an updated date. You should check back regularly to stay informed.</p>
+
+        <h2>8. Contact</h2>
+        <p>If you have any questions or requests regarding this Privacy Policy, please contact:</p>
+        <ul>
+            <li><strong>Email:</strong> iotlab@tbd.edu.vn</li>
+            <li><strong>IoT LAB Club - TBD</strong></li>
+            <li><strong>Address:</strong> Polytechnic University (TBD), Vietnam</li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 IoT LAB Club - TBD. FanpageBot. All rights reserved.
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script>
+function switchLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-tabs button').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.querySelector(`.lang-tabs button[onclick*="'${lang}'"]`).classList.add('active');
+    history.replaceState(null, '', '#' + lang);
+}
+// Auto-switch based on URL hash
+(function() {
+    const hash = location.hash.replace('#', '');
+    if (hash === 'en' || hash === 'vi') switchLang(hash);
+})();
+</script>
+
+</body>
+</html>
